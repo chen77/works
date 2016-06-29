@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta  name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<title>申报作废</title>
+	<!-- build:css css/combined.css -->
+	<link rel="stylesheet" type="text/css" href="css/normalize.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<!-- endbuild -->
+</head>
+<body>
+	<!-- 作废成功-start -->
+	<div class="pop" id="zuofei">
+		<div class="pop-main">
+			<p class="name">作废结果</p>
+			<div class="conten">
+				<div class="conten-s">
+					<p>作废成功！</p>
+				</div>
+				<p class="btn">
+					<a href="javascript:;" class="close">确定</a>
+				</p>
+			</div>
+		</div>
+	</div>
+	<!--作废成功-end -->
+	<div class="wrapper">
+		<div class="title clear">
+			<a href="index.html" class="refresh i-arrow-left"><i>refresh</i></a>
+			<span class="name">申报作废</span>
+		</div>
+		<div class="main">
+			<p class="tip f-re">提示：缴税功能目前仅适用于已签定三方协议的缴税人</p>
+			<div class="shenbao-list">
+				<div class="list-wrapper">
+					<div class="list">
+						<div class="name">
+							<input type="checkbox">
+							<h4>增值税</h4>
+							<span>(未申报)</span>
+						</div>
+						<ul>
+							<li class="clear"><span>税款所属期</span><span class="time right">2016.04-2016.06</span></li>
+							<li class="clear"><span class="right allShould">应纳税款：15555555元</span></li>
+						</ul>
+					</div>
+					<div class="list">
+						<div class="name"><input type="checkbox"><h4>增值税</h4><span>(已申报未缴税)</span></div>
+						<ul>
+							<li class="clear"><span>税款所属期</span><span class="time right">2016.04-2016.06</span></li>
+							<li class="clear"><span>申报时间</span><span class="time right">2016.04 15:30:20</span></li>
+							<li class="clear"><span class="right allShould">应纳税款：0.00元</span></li>
+						</ul>
+					</div>
+					<div class="list">
+						<div class="name"><input type="checkbox"><h4>所得税</h4><span>(未申报)</span></div>
+						<ul>
+							<li class="clear"><span>税款所属期</span><span class="time right">2016.04-2016.06</span></li>
+							<li class="clear"><span>申报时间</span><span class="time right">2016.04 15:30:20</span></li>
+							<li class="clear"><span class="right allShould">应纳税款：0.00元</span></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="btn-group">
+			<a href="javascript:;" id="zuofeiClick">申报作废</a>
+		</div>
+	</div>
+	<!-- build:js js/combined.js -->
+	<script src="js/zepto.min.js"></script>
+	<script src="js/common.js"></script>
+	<!-- endbuild -->
+</body>
+</html>

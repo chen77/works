@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta  name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<title>申报作废</title>
+	<!-- build:css css/combined.css -->
+	<link rel="stylesheet" type="text/css" href="css/normalize.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<!-- endbuild -->
+</head>
+<body>
+	<div class="wrapper">
+		<div class="title clear">
+			<a href="index.html" class="refresh i-arrow-left"><i>refresh</i></a>
+			<span class="name">增值税填表申报（计税依据）</span>
+		</div>
+		<div class="main">
+			<p class="tip f-re">提示：缴税功能目前仅适用于已签定三方协议的缴税人</p>
+			<div class="shenbao-list">
+				<div class="list-wrapper">
+					<div class="list">
+						<div class="name name-tianbiao">
+							<h4>代开专票（3%）</h4>
+							<span class="total">合计：246.00元</span>
+						</div>
+						<ul class="list-tianbiao">
+							<li><span>货物及劳务</span><span class="time">小计：<input type="text" placeholder="0.00"> 元</span></li>
+							<li><span>服务、不动产和无形资产</span><span class="time">小计：<input type="text" placeholder="0.00"> 元</span></li>	
+						</ul>
+					</div>
+					<div class="list">
+						<div class="name name-tianbiao"><h4>自开发票（3%）</h4><span class="total">合计：246.00元</span></div>
+						<ul class="list-tianbiao">
+							<li><span>货物及劳务</span><span class="time">小计：<input type="text" placeholder="0.00"> 元</span></li>
+							<li><span>服务、不动产和无形资产</span><span class="time">小计：<input type="text" placeholder="0.00"> 元</span></li>	
+						</ul>
+					</div>
+					<div class="list">
+						<div class="name name-tianbiao"><div class="fold-s"><span class="fold">+</span><h4>本期应纳税额减征额</h4></div><span class="total">合计：246.00元</span></div>
+						<ul class="list-tianbiao">
+							<li><span>货物及劳务</span><span class="time">小计：<input type="text" placeholder="0.00"> 元</span></li>
+							<li><span>服务、不动产和无形资产</span><span class="time">小计：<input type="text" placeholder="0.00"> 元</span></li>	
+						</ul>
+					</div>
+				</div>
+				<div class="remind">
+					<span>提示:</span>
+					<ul>
+						<li>金额栏均为不含税金额；</li>
+						<li>小计栏次需根据合计栏次拆分填写；</li>
+						<li> 如数据无误可点击确认去申报，如数据有误可点击修改。</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="btn-group">
+			<a href="tbshenbao.html">确认</a>
+			<a href="javascript:;">修改</a>
+		</div>
+	</div>
+	<!-- build:js js/combined.js -->
+	<script src="js/zepto.min.js"></script>
+	<script src="js/common.js"></script>
+	<!-- endbuild -->
+</body>
+</html>
